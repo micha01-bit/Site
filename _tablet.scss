@@ -1,0 +1,138 @@
+@media (max-width: 1024px) { 
+    .center {
+        padding-left: calc(50% - 393px); 
+        padding-right: calc(50% - 393px);
+    } 
+ 
+    .for { 
+        &__item {
+            height: 268px;
+        } 
+    }  
+     
+    .product-box__content {
+        column-gap: 29px; 
+        row-gap: 38px;
+       } 
+        
+    .footer__logo {
+        display: none;
+    }  
+     
+    .container {
+      padding-top: 20px;
+      }   
+      
+    .filtering-form { 
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    background-color: #fff;
+    box-shadow: 0 4px 67px -12px rgb(0 0 0 / 32%);
+    padding: 40px 48px; 
+    right: -230px;
+    }    
+
+     .bascet { 
+      gap: 64px 32px;
+    &__content {
+    grid-column: span 12;
+    } 
+
+    &__form {
+    border-radius: 20px;
+    background: rgb(247, 246, 246);
+    height: 556px;
+    grid-column: span 6; 
+     
+       &-subtotal {
+        display: flex;
+        align-content: center;
+
+      } 
+    } 
+     
+    &__button-right {
+      margin-left: 45px;
+     }
+
+    &__button2-left {
+      background-color: rgb(0,0,0); 
+      color: #fff;
+    } 
+  }  
+   
+  .bottom-box {
+    padding-top: 39px;
+  } 
+}
+ 
+@media (min-width: 768px) and (max-width: 833px) { 
+    .center {
+      padding-left: 24px; 
+      padding-right: 24px;
+    } 
+     
+    .product { 
+      width: 345px; 
+    } 
+     
+    .product-box__content {
+      column-gap: 29px; 
+      row-gap: 38px;
+     }  
+     
+    .container {
+      padding-top: 20px;
+      }
+     
+    .filtering-form { 
+      display: flex;
+      flex-direction: column;
+      gap: 36px;
+      background-color: #fff;
+      box-shadow: 0 4px 67px -12px rgb(0 0 0 / 32%);
+      padding: 40px 48px; 
+    }
+
+    .bascet__content {
+      grid-column: span 12;
+      } 
+  
+      .bascet__form {
+      border-radius: 20px;
+      background: rgb(247, 246, 246);
+      height: 556px;
+      grid-column: span 6; 
+
+      &-title {
+        display: flex; 
+        flex-direction: row;
+        padding-left: 40px;
+      }  
+       
+      &-input {
+        margin-left: 27px;
+      }
+
+      &-subtotal {
+        display: flex; 
+        align-content: flex-start;
+        padding-left: 55px;
+      }
+       
+      } 
+       
+      .bascet__button2-left {
+        background-color: rgb(0,0,0); 
+        color: #fff;
+      }  
+       
+      .bascet__button-right {
+        margin-left: 28px;
+      }
+      
+      .bottom-box {
+        padding-top: 39px;
+      }
+    }
