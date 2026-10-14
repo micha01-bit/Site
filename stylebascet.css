@@ -79,9 +79,6 @@ a {
 .header::-moz-placeholder {
   color: #fff;
 }
-.header:-ms-input-placeholder {
-  color: #fff;
-}
 .header::placeholder {
   color: #fff;
 }
@@ -177,8 +174,7 @@ a {
   font-weight: 400;
   line-height: 210%;
   text-align: center;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   transition: all 1s;
 }
 .bascet__link:hover {
@@ -333,23 +329,7 @@ a {
   cursor: pointer;
   box-shadow: 0 0 0 0 rgb(0, 0, 0);
   transform: scale(1);
-  -webkit-animation: pulse 2s infinite;
-          animation: pulse 2s infinite;
-}
-@-webkit-keyframes pulse {
-  0% {
-    transform: scale(0.95);
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
-  }
-  70% {
-    transform: scale(1);
-    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
-  }
-  100% {
-    transform: scale(0.95);
-    background-color: lightblue;
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-  }
+  animation: pulse 2s infinite;
 }
 @keyframes pulse {
   0% {
@@ -470,7 +450,6 @@ a {
 }
 .product__price_sale {
   color: rgb(136, 136, 136);
-  -webkit-text-decoration-line: line-through;
   text-decoration-line: line-through;
 }
 
@@ -484,7 +463,6 @@ a {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-  -webkit-text-decoration-line: underline;
   text-decoration-line: underline;
   transition: all 1s;
 }
@@ -619,9 +597,6 @@ a {
 .footer__input::-moz-placeholder {
   color: rgb(196, 196, 196);
 }
-.footer__input:-ms-input-placeholder {
-  color: rgb(196, 196, 196);
-}
 .footer__input::placeholder {
   color: rgb(196, 196, 196);
 }
@@ -641,8 +616,7 @@ a {
   font-family: "Montserrat", sans-serif;
   box-shadow: 0 0 0 0 rgb(0, 0, 0);
   transform: scale(1);
-  -webkit-animation: pulse 2s infinite;
-          animation: pulse 2s infinite;
+  animation: pulse 2s infinite;
 }
 @keyframes pulse {
   0% {

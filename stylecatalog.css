@@ -82,9 +82,6 @@ a {
 .header__input::-moz-placeholder {
   color: #FFFFFF;
 }
-.header__input:-ms-input-placeholder {
-  color: #FFFFFF;
-}
 .header__input::placeholder {
   color: #FFFFFF;
 }
@@ -360,7 +357,6 @@ a {
   z-index: 1;
 }
 .range__input::-webkit-slider-thumb:active {
-  cursor: -webkit-grabbing;
   cursor: grabbing;
 }
 .range__input:nth-child(1)::-webkit-slider-thumb {
@@ -574,7 +570,6 @@ a {
 }
 .product__price_sale {
   color: rgb(136, 136, 136);
-  -webkit-text-decoration-line: line-through;
   text-decoration-line: line-through;
 }
 .product__name {
@@ -606,8 +601,7 @@ a {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   transition: all 1s;
 }
 .menu-bottom__link:hover {
@@ -742,9 +736,6 @@ a {
 .footer__input::-moz-placeholder {
   color: rgb(196, 196, 196);
 }
-.footer__input:-ms-input-placeholder {
-  color: rgb(196, 196, 196);
-}
 .footer__input::placeholder {
   color: rgb(196, 196, 196);
 }
@@ -764,28 +755,7 @@ a {
   font-family: "Montserrat", sans-serif;
   box-shadow: 0 0 0 0 rgb(0, 0, 0);
   transform: scale(1);
-  -webkit-animation: pulse 2s infinite;
-          animation: pulse 2s infinite;
-}
-
-@-webkit-keyframes pulse {
-  0% {
-    transform: scale(0.95);
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
-    cursor: pointer;
-  }
-  70% {
-    transform: scale(1);
-    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
-    cursor: pointer;
-  }
-  100% {
-    transform: scale(0.95);
-    background-color: lightblue;
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    border: 1px solid #000000;
-    cursor: pointer;
-  }
+  animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
